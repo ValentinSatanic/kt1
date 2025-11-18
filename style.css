@@ -11,6 +11,11 @@ body {
   line-height: 1.5;
 }
 
+/* Плавный скролл при переходах по якорям */
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -326,3 +331,4 @@ footer {
   background: #f5f5f5;
   color: #070707;
 }
+
